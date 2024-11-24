@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 7px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.navbar-link:hover {
+  background-color: #555;
+  color: #fff;
+}
